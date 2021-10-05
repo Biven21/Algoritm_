@@ -8,8 +8,11 @@ int main ()
     {
     int data [20] = {};
 
-    FillArray (data, 20, 0, 10);
+    FillArray  (data, 20, 0, 10);
     PrintArray (data, 20);
+    printf ("\n");
+    FillArray  (data, 30, 0, 10);
+    PrintArray (data, 30);
 
     return 0;
     }
