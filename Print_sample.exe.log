@@ -99,3 +99,486 @@ Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
 Directory:	D:\school\КПК\Репозиторий\Algoritm_
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x000000E6. Попытка прочесть данные по адресу 0x000000E6. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x814 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txOnExceptionSEH() at D:/school/КПК/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txVectoredExceptionHandler() at D:/school/КПК/TX/TXLib.h (11402)
+# 2 0x772C62FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x772AB692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x772AB354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x77260133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x757FC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int) at D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp (35):
+
+     33:              }
+     34:          $g; printf ("[%2d] = ", i);
+=>   35:          $c; printf ("%3d,", data [i]);
+     36:          }
+     37:      }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 15:52:49, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 15:52:58
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x000000E6. Попытка прочесть данные по адресу 0x000000E6. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x814 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txOnSignal() at D:/school/КПК/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _gnu_exception_handler@4()
+# 2 0x772C74FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x77289F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int) at D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp (35):
+
+     33:              }
+     34:          $g; printf ("[%2d] = ", i);
+=>   35:          $c; printf ("%3d,", data [i]);
+     36:          }
+     37:      }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 15:52:49, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 15:52:57
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp, строка: 25, функция: void FillArray(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i < start".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x26A8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CD53 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: FillArray() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (25):
+
+     23:      for (int i = 0; i < size; i++)
+     24:          {
+=>   25:          assert (0 <= i && i < start);
+     26:          data [i] = start + i * step;
+     27:          }
+
+# 1 0x0042CC88 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (11):
+
+      9:     int data [20] = {};
+     10: 
+=>   11:     FillArray  (data, 20, 0, 10);
+     12:     PrintArray (data, 20);
+     13:     printf ("\n");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 16:01:19, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 16:01:25
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x000000E6. Попытка прочесть данные по адресу 0x000000E6. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x2064 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txOnExceptionSEH() at D:/school/КПК/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txVectoredExceptionHandler() at D:/school/КПК/TX/TXLib.h (11402)
+# 2 0x772C62FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x772AB692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x772AB354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x77260133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x757FC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int) at D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp (39):
+
+     37:              }
+     38:          $g; printf ("[%2d] = ", i);
+=>   39:          $c; printf ("%3d,", data [i]);
+     40:          }
+     41:      }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 16:02:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 16:02:34
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x000000E6. Попытка прочесть данные по адресу 0x000000E6. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x2064 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txOnSignal() at D:/school/КПК/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _gnu_exception_handler@4()
+# 2 0x772C74FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x77289F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int) at D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp (39):
+
+     37:              }
+     38:          $g; printf ("[%2d] = ", i);
+=>   39:          $c; printf ("%3d,", data [i]);
+     40:          }
+     41:      }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 16:02:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 16:02:34
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x000000FA. Попытка прочесть данные по адресу 0x000000FA. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x2490 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txOnExceptionSEH() at D:/school/КПК/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txVectoredExceptionHandler() at D:/school/КПК/TX/TXLib.h (11402)
+# 2 0x772C62FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x772AB692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x772AB354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x77260133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x757FC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int) at D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp (39):
+
+     37:              }
+     38:          $g; printf ("[%2d] = ", i);
+=>   39:          $c; printf ("%3d,", data [i]);
+     40:          }
+     41:      }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 16:06:33, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 16:06:37
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x000000FA. Попытка прочесть данные по адресу 0x000000FA. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x2490 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _txOnSignal() at D:/school/КПК/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: _gnu_exception_handler@4()
+# 2 0x772C74FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x77289F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int) at D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp (39):
+
+     37:              }
+     38:          $g; printf ("[%2d] = ", i);
+=>   39:          $c; printf ("%3d,", data [i]);
+     40:          }
+     41:      }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 16:06:33, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 16:06:37
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp, строка: 26, функция: void FillArray(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i-1 && i-1 < size".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x18C0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CDD1 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: FillArray() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (26):
+
+     24:          {
+     25:          assert (0 <= i && i < size);
+=>   26:          assert (0 <= i-1 && i-1 < size);
+     27:          data [i] = data [i - 1] + step;
+     28:          }
+
+# 1 0x0042CC88 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (11):
+
+      9:     int data [20] = {};
+     10: 
+=>   11:     FillArray  (data, 20, 0, 10);
+     12:     PrintArray (data, 20);
+     13:     printf ("\n");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 16:07:36, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 16:07:40
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp, строка: 26, функция: void FillArray(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i-1 && i-1 < size".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x22A8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CDD1 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: FillArray() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (26):
+
+     24:          {
+     25:          assert (0 <= i   && i   < size);
+=>   26:          assert (0 <= i-1 && i-1 < size);
+     27: 
+     28:          data [i] = data [i - 1] + step;
+
+# 1 0x0042CC88 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (11):
+
+      9:     int data [20] = {};
+     10: 
+=>   11:     FillArray  (data, 20, 0, 10);
+     12:     PrintArray (data, 20);
+     13:     printf ("\n");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 16:11:09, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 16:11:13
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp, строка: 27, функция: void FillArray(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i-1 && i-1 < size".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x256C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CDE1 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: FillArray() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (27):
+
+     25:          {
+     26:          assert (0 <= i   && i   < size);
+=>   27:          assert (0 <= i-1 && i-1 < size);
+     28: 
+     29:          data [i] = data [i - 1] + step;
+
+# 1 0x0042CC88 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (11):
+
+      9:     int data [20] = {};
+     10: 
+=>   11:     FillArray  (data, 20, 0, 10);
+     12:     PrintArray (data, 20, "после заполнения");
+     13:     printf ("\n");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  6 2021 16:56:54, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 06 2021 16:57:00
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
