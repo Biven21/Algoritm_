@@ -5,6 +5,7 @@
 void FillArray (int data[], int size, int start, int step);
 void FillArray123 (int data123[], int size);
 void FillArray123321 (int data123321[], int size);
+void FillArray1232 (int data1232[], int size);
 
 int main ()
     {
@@ -26,6 +27,10 @@ int main ()
     int data123321 [55] = {};
     FillArray123321 (data123321, 55);
     PrintArray (data123321, 55, 6, "после заполнения");
+
+    int data1232 [20] = {};
+    FillArray1232 (data1232, 20);
+    PrintArray (data1232, 20, 4, "после заполнения");
 
     return 0;
     }
@@ -73,12 +78,37 @@ void FillArray123321 (int data123321[], int size)
 
          printf ("\n %d член последовательности %d  ", i, mamber);
 
-         if (mamber == 1)
-             period = period + 1;
+         if (mamber == 1) period = period + 1;
+
          printf ("\n %d period %d  ", i, period);
+
+         assert (0 <= i && i < size);
 
          if (period %2 == 1) data123321 [i] =      mamber %4;
          if (period %2 == 0) data123321 [i] = -1 * mamber %4 + 4;
          }
      }
+
+//-----------------------------------------------------------------------------
+
+void FillArray1232 (int data1232[], int size)
+    {
+    data1232 [0] = 1;
+    int j = 0;
+
+    for (int i = 1; i < size; i++)
+        {
+        j = i %4 + 1;
+
+        printf ("\n");
+        printf ("%d j  =  ", j);
+
+        assert (0 <= i && i < size);
+
+
+        if (j == 4) data1232 [i] = 2;
+        else data1232 [i] = j;
+        }
+    }
+
 
