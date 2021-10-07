@@ -1,21 +1,26 @@
 
 #include "TXLib.h"
+#include "AlgoFunc.h"
 
 void FillArray (int data[], int size, int start, int step);
-void PrintArray (const int data[], int size, const char title[]);
+void FillArray123 (int data123[], int size);
 
 int main ()
     {
     int data [20] = {};
 
     FillArray  (data, 20, 0, 10);
-    PrintArray (data, 20, "после заполнения");
+    PrintArray (data, 20, 5, "после заполнения");
     printf ("\n");
 
     int data1 [30] = {};
 
     FillArray  (data1, 30, 0, 10);
-    PrintArray (data1, 30, "после запо лнения");
+    PrintArray (data1, 30, 6, "после заполнения");
+
+    int data123 [10] = {};
+    FillArray123 (data123, 10);
+    PrintArray (data123, 10, 3, "после заполнения");
 
     return 0;
     }
@@ -32,22 +37,14 @@ void FillArray (int data[], int size, int start, int step)
          data [i] = data [i - 1] + step;
          }
      }
+void FillArray123 (int data123[], int size)
+    {
+    data123 [0] = 0;
 
-void PrintArray (const int data[], int size, const char title[])
-     {
-     printf ("\n%s:", title);
-     printf ("\n");
+    for (int i = 0; i < size; i++)
+        {
+        assert (0 <= i && i < size);
 
-     for (int i = 0; i < size; i++)
-         {
-         assert (0 <= i   && i   < size);
-
-         if (i % 5 == 0)
-             {
-             printf ("\n");
-             }
-         $g; printf ("[%2d] = ", i);
-         $c; printf ("%3d,", data [i]);
-         }
-         printf (" END");
-     }
+        data123 [i] = i%3 + 1;
+        }
+    }
