@@ -98,15 +98,15 @@ void FillArray1232 (int data1232[], int size)
 
     for (int i = 1; i < size; i++)
         {
-        j = i %4;
+        j = i %4 + 1;
+
         printf ("\n");
         printf ("%d j  =  ", j);
 
         assert (0 <= i && i < size);
-
+       
         if (j == 4) data1232 [i] = 2;
-
-            data1232 [i] = j;
+        else        data1232 [i] = j;
         }
     }
 
