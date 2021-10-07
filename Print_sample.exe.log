@@ -582,3 +582,93 @@ Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
 Directory:	D:\school\КПК\Репозиторий\Algoritm_
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp, строка: 30, функция: void FillArray(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i-1 && i-1 < size".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x12D8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CDE1 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: FillArray() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (30):
+
+     28:          {
+     29:          assert (0 <= i   && i   < size);
+=>   30:          assert (0 <= i-1 && i-1 < size);
+     31: 
+     32:          data [i] = data [i - 1] + step;
+
+# 1 0x0042CC88 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (11):
+
+      9:     int data [20] = {};
+     10: 
+=>   11:     FillArray  (data, 20, 0, 10);
+     12:     PrintArray (data, 20, "после заполнения");
+     13:     printf ("\n");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  7 2021 13:27:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 07 2021 13:27:30
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Print_sample.cpp, строка: 30, функция: void FillArray(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i-1 && i-1 < size".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1610 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CDF8 in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: FillArray() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (30):
+
+     28:          {
+     29:          assert (0 <= i   && i   < size);
+=>   30:          assert (0 <= i-1 && i-1 < size);
+     31: 
+     32:          data [i] = data [i - 1] + step;
+
+# 1 0x0042CC8B in D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Print_sample.cpp (11):
+
+      9:     int data [20] = {};
+     10: 
+=>   11:     FillArray  (data, 20, 0, 10);
+     12:     PrintArray (data, 20, "после заполнения");
+     13:     printf ("\n");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct  7 2021 13:28:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 07 2021 13:28:39
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Print_sample.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
