@@ -6,7 +6,7 @@ void FillArray (int data[], int size, int start, int step);
 void FillArray123 (int data123[], int size);
 void FillArray123321 (int data123321[], int size);
 void FillArray1232 (int data1232[], int size);
-void FillArray1232 (int data1232[], int size);
+void FillArray1342 (int data1342[], int size);
 
 int main ()
     {
@@ -33,9 +33,13 @@ int main ()
     FillArray1232 (data1232, 20);
     PrintArray (data1232, 20, 4, "после заполнения");
 
-    int data1342 [21] = {};
-    FillArray1232 (data1232, 21);
-    PrintArray (data1342, 21, 5, "после заполнения");
+    int data1342 [11] = {};
+    FillArray1342 (data1342, 11);
+    PrintArray (data1342, 11, 5, "после заполнения massiv 1342");
+
+    int data1342ch [10] = {};
+    FillArray1342 (data1342ch, 10);
+    PrintArray (data1342ch, 10, 5, "после заполнения massiv 1342");
 
     return 0;
     }
@@ -94,7 +98,7 @@ void FillArray123321 (int data123321[], int size)
          }
      }
 
-//-----------------------------------------------------------------------------
+//--------------------1232---------------------------------------------------------
 
 void FillArray1232 (int data1232[], int size)
     {
@@ -111,22 +115,28 @@ void FillArray1232 (int data1232[], int size)
         else        data1232 [i] = j;
         }
     }
+
+//--------------------1342---------------------------------------------------------
+
 void FillArray1342 (int data1342[], int size)
      {
      data1342 [0] = 1;
 
      for (int i = 1; i <= size / 2; i++)
-             {
-             assert (0 <= i && i <= size/2);
-             assert (0 <= i - 1 && i - 1 <= size/2);
+         {
+         assert (0 <= i && i <= size/2);
+         assert (0 <= i - 1 && i - 1 <= size/2);
 
-             data1342 [i] = data1342 [i-1] + 2;
-             }
-         printf ("\n %d  i =   , d = %d ", i, data1342);
+         data1342 [i] = data1342 [i-1] + 2;
+
+         printf ("\n");
+         printf ("\n  i = %d   , d = %d ", i, data1342);
+         }
+
 
      if (size %2 != 0)
          {
-         data1342 [size/2 + 1] =  data1342 [size/2] + 1;
+         data1342 [size/2 + 1] =  data1342 [size/2] - 1;
 
          for (int i = size/2 + 2; i < size; i++)
              {
@@ -138,12 +148,10 @@ void FillArray1342 (int data1342[], int size)
           }
      else
           {
-          data1342 [size/2 + 1] =  data1342 [size/2] + 2;
-          data1342 [size/2 + 2] =  data1342 [size/2] + 1;
+          data1342 [size/2] =  data1342 [size/2 - 1] + 1;
 
-          for (int i = size/2 + 3; i < size; i++)
+          for (int i = size/2 + 1; i < size; i++)
              {
-             assert (size/2 + 1 <= i && i < size);
              assert (0 <= i - 1 && i - 1 < size);
 
              data1342 [i] = data1342 [i - 1] - 2;
