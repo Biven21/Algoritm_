@@ -2,11 +2,12 @@
 #include "TXLib.h"
 #include "AlgoFunc.h"
 
-void FillArray (int data[], int size, int start, int step);
-void FillArray123 (int data123[], int size);
+void FillArray       (int data[],       int size, int start, int step);
+void FillArray123    (int data123[],    int size);
 void FillArray123321 (int data123321[], int size);
-void FillArray1232 (int data1232[], int size);
-void FillArray1342 (int data1342[], int size);
+void FillArray1232   (int data1232[],   int size);
+void FillArray1342   (int data1342[],   int size);
+void FillArray123654 (int data123654[], int size);
 
 int main ()
     {
@@ -40,6 +41,10 @@ int main ()
     int data1342ch [10] = {};
     FillArray1342 (data1342ch, 10);
     PrintArray (data1342ch, 10, 5, "после заполнения massiv 1342");
+
+    int data123654[24];
+    FillArray123654 (data123654, 24);
+    PrintArray (data123654, 24, 5, "после заполнения massiv 123654");
 
     return 0;
     }
@@ -124,7 +129,7 @@ void FillArray1342 (int data1342[], int size)
 
      for (int i = 1; i <= size / 2; i++)
          {
-         assert (0 <= i && i <= size/2);
+         assert (0 <= i     && i     <= size/2);
          assert (0 <= i - 1 && i - 1 <= size/2);
 
          data1342 [i] = data1342 [i-1] + 2;
@@ -159,3 +164,42 @@ void FillArray1342 (int data1342[], int size)
           }
     }
 
+//---------------------123654--------------------------------------------------------
+
+void FillArray123654 (int data123654[], int size)
+     {
+     data123654 [0] = 1;
+     int i = 0;
+     int NamMemNch;
+     double periodNch;
+//     int NamMambNch = siz
+     int NamPeriod = ceil ((size + 1) / 3);
+
+     if (NamPeriod % 2 == 1)
+         {
+         periodNch = ceil  ((size / 2) / 3);
+         NamMemNch = (size / 2) % 3 + (size / 2) / 3;
+         double periodch  = ((size / 2) / 3);
+         }
+     else
+         {
+         periodNch = ((size / 2) / 3);
+         double periodch  = ceil  ((size / 2) / 3);
+         int NamMemch = (size / 2) % 3 + (size / 2) / 3;
+         }
+
+     printf ("\n size %d, NamPeriod %d",  size, NamPeriod);
+
+     while (i <= NamMemNch);
+         for (int j = 1; j <= periodNch; j++)
+             {
+             for (int k = 1; k <= 2; k++)
+                 {
+                 i = i + k;
+                 data123654 [i] = data123654 [i-1] + 1;
+                 }
+             i++;
+             data123654 [i] = data123654 [i-1] + 4;
+             }
+
+     }
