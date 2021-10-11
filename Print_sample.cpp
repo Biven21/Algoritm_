@@ -201,16 +201,36 @@ void FillArray123654 (int data123654[], int size)
 
      printf ("\n\n size %d, NambPeriod %d, NambMemNch %d",  size, NambPeriod, NambMemNch);
 
-     while (i <= NambMemNch);
+     if (i <= NambMemNch)
+         {
          for (int j = 1; j <= periodNch; j++)
              {
              for (int k = 1; k <= 2; k++)
                  {
-                 i = i + k;
+                 printf ("\n i = %d", i);
+                 i++;
                  data123654 [i] = data123654 [i-1] + 1;
+                 printf ("\n i + k = %d", i);
                  }
              i++;
              data123654 [i] = data123654 [i-1] + 4;
+             printf ("\n data = %d", data123654);
              }
-
+          }
+     else
+         {
+         for (int j = 1; j <= periodch; j++)
+             {
+             for (int k = 1; k <= 2; k++)
+                 {
+                 printf ("\n i = %d", i);
+                 i++;
+                 data123654 [i] = data123654 [i-1] - 1;
+                 printf ("\n i + k = %d", i);
+                 }
+             i++;
+             data123654 [i] = data123654 [i-1] - 4;
+             printf ("\n data = %d", data123654);
+             }
+         }
      }
