@@ -1,6 +1,7 @@
 
 #include "TXLib.h"
 #include "AlgoFunc.h"
+#include <cmath>
 
 void FillArray       (int data[],       int size, int start, int step);
 void FillArray123    (int data123[],    int size);
@@ -42,9 +43,9 @@ int main ()
     FillArray1342 (data1342ch, 10);
     PrintArray (data1342ch, 10, 5, "после заполнения massiv 1342");
 
-    int data123654[24];
-    FillArray123654 (data123654, 24);
-    PrintArray (data123654, 24, 5, "после заполнения massiv 123654");
+    int data123654[16];
+    FillArray123654 (data123654, 16);
+    PrintArray (data123654, 16, 5, "после заполнения massiv 123654");
 
     return 0;
     }
@@ -170,27 +171,37 @@ void FillArray123654 (int data123654[], int size)
      {
      data123654 [0] = 1;
      int i = 0;
-     int NamMemNch;
-     double periodNch;
-//     int NamMambNch = siz
-     int NamPeriod = ceil ((size + 1) / 3);
+     int NambMemNch;
+     int NambMemch;
+     int periodNch;
+     int periodch;
+     int NambPeriod;
 
-     if (NamPeriod % 2 == 1)
+     float NambPeriod1 = (size / 3.0 + 0.9); // * 10 / 10;
+
+     printf ("\n\n NambPeriod1 = %f  size = %d", NambPeriod1, size);
+
+     NambPeriod = NambPeriod1 * 10 / 10;
+     printf ("\n NambPeriod = %d", NambPeriod);
+
+     if (NambPeriod % 2 == 1)
          {
-         periodNch = ceil  ((size / 2) / 3);
-         NamMemNch = (size / 2) % 3 + (size / 2) / 3;
-         double periodch  = ((size / 2) / 3);
+         periodNch = ceil (NambPeriod / 2);
+         periodch = NambPeriod - periodNch;
+         NambMemNch = (size - (NambPeriod - 1) * 3) + periodNch * 3;
+         NambMemch = periodch * 3;
          }
      else
          {
          periodNch = ((size / 2) / 3);
-         double periodch  = ceil  ((size / 2) / 3);
-         int NamMemch = (size / 2) % 3 + (size / 2) / 3;
+         periodch  = ceil  ((size / 2) / 3);
+         int NambMemch = (size / 2) % 3 + (size / 2) / 3;
+         NambMemNch = periodNch * 3;
          }
 
-     printf ("\n size %d, NamPeriod %d",  size, NamPeriod);
+     printf ("\n\n size %d, NambPeriod %d, NambMemNch %d",  size, NambPeriod, NambMemNch);
 
-     while (i <= NamMemNch);
+     while (i <= NambMemNch);
          for (int j = 1; j <= periodNch; j++)
              {
              for (int k = 1; k <= 2; k++)
