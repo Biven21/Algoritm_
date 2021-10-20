@@ -10,6 +10,8 @@ void FillArray1232   (int data1232[],   int size);
 void FillArray1342   (int data1342[],   int size);
 void FillArray123654 (int data123654[], int size);
 
+//-----------------------------------------------------------------------------
+
 int main ()
     {
     int data [20] = {};
@@ -171,11 +173,11 @@ void FillArray123654 (int data123654[], int size)
      {
      data123654 [0] = 1;
      int i = 0;
-     int NambMemNch;
-     int NambMemch;
-     int periodNch;
-     int periodch;
-     int NambPeriod;
+     int NambMemNch = 0;
+     int NambMemch = 0;
+     int periodNch  = 0;
+     int periodch = 0;
+     int NambPeriod = 0;
 
      float NambPeriod1 = (size / 3.0 + 0.9); // * 10 / 10;
 
@@ -210,27 +212,18 @@ void FillArray123654 (int data123654[], int size)
                  printf ("\n i = %d", i);
                  i++;
                  data123654 [i] = data123654 [i-1] + 1;
-                 printf ("\n i + k = %d", i);
+                 printf ("\n i + k = %d  d = %d", i, data123654 [i]);
                  }
              i++;
              data123654 [i] = data123654 [i-1] + 4;
-             printf ("\n data = %d", data123654);
+             printf ("\n data v cicle = %d", data123654 [i]);
              }
           }
-     else
+
+     i= 1;
+
+     for (1 <= i; i <= NambMemch; i++)
          {
-         for (int j = 1; j <= periodch; j++)
-             {
-             for (int k = 1; k <= 2; k++)
-                 {
-                 printf ("\n i = %d", i);
-                 i++;
-                 data123654 [i] = data123654 [i-1] - 1;
-                 printf ("\n i + k = %d", i);
-                 }
-             i++;
-             data123654 [i] = data123654 [i-1] - 4;
-             printf ("\n data = %d", data123654);
-             }
+         data123654 [size - i] = data123654 [i - 1] + 1;
          }
-     }
+    }
