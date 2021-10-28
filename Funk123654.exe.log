@@ -1,0 +1,98 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042D04D в функции FillArr() в файле D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp на строке 64. Попытка записать данные по адресу 0x0042CECD в модуле D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x480 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D04D in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (64):
+
+     62:      for (SizeNch + 1 <= i; i < size; i--)
+     63:          {
+=>   64:          if ((i - 1) % 3 != 0) data [i] = data [i - 1] - 1;
+     65:          else                  data [i] = data [i - 1] - 4;
+     66: 
+
+# 1 0x0042CEE9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (34):
+
+     32:      printf ("\n колво нечетн членов = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     33: 
+=>   34:      FillArr (data, 12, SizeNch, shift);
+     35: 
+     36:      PrintArray (data, 12, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct 28 2021 18:14:03, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 28 2021 18:14:07
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042D04D в функции FillArr() в файле D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp на строке 64. Попытка записать данные по адресу 0x0042CECD в модуле D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x480 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D04D in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (64):
+
+     62:      for (SizeNch + 1 <= i; i < size; i--)
+     63:          {
+=>   64:          if ((i - 1) % 3 != 0) data [i] = data [i - 1] - 1;
+     65:          else                  data [i] = data [i - 1] - 4;
+     66: 
+
+# 1 0x0042CEE9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (34):
+
+     32:      printf ("\n колво нечетн членов = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     33: 
+=>   34:      FillArr (data, 12, SizeNch, shift);
+     35: 
+     36:      PrintArray (data, 12, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Oct 28 2021 18:14:03, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 28 2021 18:14:07
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
