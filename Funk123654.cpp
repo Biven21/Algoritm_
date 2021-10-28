@@ -34,6 +34,8 @@ void FillArr (int data [], int size, int SizeNch, int shift);
      FillArr (data, 16, SizeNch, shift);
 
      PrintArray (data, 16, 3, "после заполнения");
+
+     return 0;
      }
 
 //-----------------------------------------------------------------------------
@@ -63,5 +65,16 @@ void FillArr (int data [], int size, int SizeNch, int shift)
          else                  data [i] = data [i - 1] - 4;
 
          printf ("\n data [i] = %d  i = %d", data [i], i);
+         }
+     }
+void PatTo
+     {
+     int j = 0;
+
+     for (SizeNch + 1 <= i; i < size; i++)
+         {
+         if  (shift == 1) data [i] = data[i - 1] - 4;
+         for (1 <= j <= shift)
+
          }
      }
