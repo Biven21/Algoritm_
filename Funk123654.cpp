@@ -40,15 +40,13 @@ void FillArr (int data [], int size, int SizeNch, int Sizech);
 
 void FillArr (int data [], int size, int SizeNch, int Sizech)
      {
-     int dd [] = {};
+     int j, dd [Sizech];
 
-     int    i = 1;
-     int    j = 1;
+     int i = 1;
 
-      data [0] = 1;
-      dd   [0] = 4;
+     data [0] = 1;
 
-     for (1 <= i; i <= SizeNch; i++)
+     for (i = 1; i < SizeNch; i++)
          {
          assert (0 <= i   && i   < SizeNch);
          assert (0 <= i-1 && i-1 < SizeNch);
@@ -58,28 +56,27 @@ void FillArr (int data [], int size, int SizeNch, int Sizech)
          printf ("\n data [i] = %d  i = %d", data [i], i);
          }
 
-     for (1 <= j; j <= Sizech; j++)
+
+
+     for (int j = 1; j < Sizech; j++)
          {
          assert (0 <= j   && j   < Sizech);
          assert (0 <= j-1 && j-1 < Sizech);
-
-
-         if (i % 3 != 0) dd [j] = dd [j - 1] + 1;
+         dd [0] = 4;
+         if (j % 3 != 0) {dd [0] = 4; dd [j] = dd [j - 1] + 1;}
          else            dd [j] = dd [j - 1] + 4;
-         printf ("\n dd [j] = %d  j = %d", data [j], j);
+         printf ("\n\n dd [j] = %d  j = %d", data [j], j);
          }
 
-     //int j = Sizech - 1;
 
-     for (1 <= j <= Sizech  && SizeNch + 1 <= i <= size - 1; j--; i++)
+     for (1 <= j < Sizech  && SizeNch <= i <= size - 1; j++; i++)
          {
-         assert (0 <= i   && i   < SizeNch);
-         assert (0 <= i-1 && i-1 < SizeNch);
+         assert (SizeNch <= i && i < size);
 
-         assert (0 <= j   && j   < Sizech);
-         assert (0 <= j-1 && j-1 < Sizech);
+         assert (1       <= j && j < Sizech);
 
          data [i] = dd [j];
          }
+
 
      }

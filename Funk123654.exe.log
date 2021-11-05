@@ -414,3 +414,858 @@ Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
 Directory:	D:\school\КПК\Репозиторий\Algoritm_
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 53, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i < SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1B9C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CF6D in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (53):
+
+     51:      for (1 <= i; i <= SizeNch; i++)
+     52:          {
+=>   53:          assert (0 <= i   && i   < SizeNch);
+     54:          assert (0 <= i-1 && i-1 < SizeNch);
+     55: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:17:03, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:17:07
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 53, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i < SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1A7C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CF6D in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (53):
+
+     51:      for (1 <= i; i <= SizeNch; i++)
+     52:          {
+=>   53:          assert (0 <= i   && i   < SizeNch);
+     54:          assert (0 <= i-1 && i-1 < SizeNch);
+     55: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:17:19, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:17:23
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 63, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x10C4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D11D in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (63):
+
+     61:      for (1 <= j; j <= Sizech; j++)
+     62:          {
+=>   63:          assert (0 <= j   && j   < Sizech);
+     64:          assert (0 <= j-1 && j-1 < Sizech);
+     65: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:22:39, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:22:42
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 63, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1A9C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D11D in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (63):
+
+     61:      for (1 <= j; j <= Sizech; j++)
+     62:          {
+=>   63:          assert (0 <= j   && j   < Sizech);
+     64:          assert (0 <= j-1 && j-1 < Sizech);
+     65: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:25:31, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:25:35
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 63, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x186C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D11D in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (63):
+
+     61:      for (1 <= j; j <= Sizech; j++)
+     62:          {
+=>   63:          assert (0 <= j   && j   < Sizech);
+     64:          assert (0 <= j-1 && j-1 < Sizech);
+     65: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:27:47, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:27:51
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 65, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x344 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D130 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (65):
+
+     63:      for (1 <= j; j <= Sizech; j++)
+     64:          {
+=>   65:          assert (0 <= j   && j   < Sizech);
+     66:          assert (0 <= j-1 && j-1 < Sizech);
+     67: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:34:43, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:34:47
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 65, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1710 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D129 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (65):
+
+     63:      for (1 <= j; j <= Sizech; j++)
+     64:          {
+=>   65:          assert (0 <= j   && j   < Sizech);
+     66:          assert (0 <= j-1 && j-1 < Sizech);
+     67: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:37:16, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:37:20
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 80, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j-1 && j-1 <= Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xCF8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D422 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (80):
+
+     78: 
+     79:          assert (0 <= j   && j   <= Sizech);
+=>   80:          assert (0 <= j-1 && j-1 <= Sizech);
+     81: 
+     82:          data [i] = dd [j];
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:41:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:41:39
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 80, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j-1 && j-1 <= Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x199C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D429 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (80):
+
+     78: 
+     79:          assert (0 <= j   && j   <= Sizech);
+=>   80:          assert (0 <= j-1 && j-1 <= Sizech);
+     81: 
+     82:          data [i] = dd [j];
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:44:27, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:44:31
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i <= SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1B74 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D2B2 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:      for (1 <= j <= Sizech  && SizeNch + 1 <= i <= size - 1; j--; i++)
+     75:          {
+=>   76:          assert (0 <= i   && i   <= SizeNch);
+     77:          assert (0 <= i-1 && i-1 <= SizeNch);
+     78: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:45:38, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:45:42
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i <= SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xA04 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D2B2 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:      for (1 <= j <= Sizech  && SizeNch + 1 <= i <= size - 1; j--; i++)
+     75:          {
+=>   76:          assert (0 <= i   && i   <= SizeNch);
+     77:          assert (0 <= i-1 && i-1 <= SizeNch);
+     78: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:48:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:48:27
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 80, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j-1 && j-1 <= Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xDE0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D416 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (80):
+
+     78: 
+     79:          assert (0 <= j   && j   <= Sizech);
+=>   80:          assert (0 <= j-1 && j-1 <= Sizech);
+     81: 
+     82:          data [i] = dd [j];
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:49:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:49:57
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i <= SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1BD4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D2EF in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:      for (1 <= j <= Sizech  && SizeNch + 1 <= i <= size - 1; j--; i++)
+     75:          {
+=>   76:          assert (0 <= i   && i   <= SizeNch);
+     77:          assert (0 <= i-1 && i-1 <= SizeNch);
+     78: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 19:06:45, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 19:06:49
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i <= SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1338 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D2EF in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:      for (1 <= j <= Sizech  && SizeNch + 1 <= i <= size - 1; j--; i++)
+     75:          {
+=>   76:          assert (0 <= i   && i   <= SizeNch);
+     77:          assert (0 <= i-1 && i-1 <= SizeNch);
+     78: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 19:11:27, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 19:11:31
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i <= SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1BF8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D2EF in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:      for (1 <= j <= Sizech  && SizeNch + 1 <= i <= size - 1; j--; i++)
+     75:          {
+=>   76:          assert (0 <= i   && i   <= SizeNch);
+     77:          assert (0 <= i-1 && i-1 <= SizeNch);
+     78: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 19:14:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 19:14:31
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1954 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D406 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:          assert (SizeNch - 1 <= i-1 && i-1 < size);
+     75: 
+=>   76:          assert (0 <= j   && j   < Sizech);
+     77:          assert (0 <= j-1 && j-1 < Sizech);
+     78: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 19:33:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 19:33:15
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "1 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1A20 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D370 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:          assert (SizeNch <= i && i < size);
+     75: 
+=>   76:          assert (1       <= j && j < Sizech);
+     77: 
+     78:          data [i] = dd [j];
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 19:40:15, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 19:40:18
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "1 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xA44 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D370 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:          assert (SizeNch <= i && i < size);
+     75: 
+=>   76:          assert (1       <= j && j < Sizech);
+     77: 
+     78:          data [i] = dd [j];
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 19:43:39, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 19:43:42
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "1 <= j && j < Sizech".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1590 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D379 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:          assert (SizeNch <= i && i < size);
+     75: 
+=>   76:          assert (1       <= j && j < Sizech);
+     77: 
+     78:          data [i] = dd [j];
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 19:46:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 19:46:50
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
