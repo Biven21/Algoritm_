@@ -96,3 +96,321 @@ Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
 Directory:	D:\school\КПК\Репозиторий\Algoritm_
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042D038 в функции FillArr() в файле D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp на строке 62. Попытка прочесть данные по адресу 0x00000022 в модуле D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1890 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D038 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (62):
+
+     60:          if (i % 3 != 0) dd [j] = dd [j - 1] + 1;
+     61:          else            dd [j] = dd [j - 1] + 4;
+=>   62:          printf ("\n dd [j] = %d  j = %d", data [j], j);
+     63:          }
+     64: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 17:48:39, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 17:48:44
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042D038 в функции FillArr() в файле D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp на строке 62. Попытка прочесть данные по адресу 0x00000022 в модуле D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1890 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D038 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (62):
+
+     60:          if (i % 3 != 0) dd [j] = dd [j - 1] + 1;
+     61:          else            dd [j] = dd [j - 1] + 4;
+=>   62:          printf ("\n dd [j] = %d  j = %d", data [j], j);
+     63:          }
+     64: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 17:48:39, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 17:48:44
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000008. Попытка прочесть данные по адресу 0x00000008. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1888 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/КПК/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/КПК/TX/TXLib.h (11402)
+# 2 0x778162FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x777FB692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x777FB354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x777B0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x7685C620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 17:57:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 17:57:48
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000008. Попытка прочесть данные по адресу 0x00000008. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1888 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/КПК/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x778174FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x777D9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 17:57:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 17:57:48
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i < SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1A00 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D2A5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:      for (1 <= j <= Sizech - 1  && SizeNch + 1 <= i <= size - 1; j--; i++)
+     75:          {
+=>   76:          assert (0 <= i   && i   < SizeNch);
+     77:          assert (0 <= i-1 && i-1 < SizeNch);
+     78: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 17:59:47, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 17:59:51
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 76, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i < SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1BA8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D2A5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (76):
+
+     74:      for (1 <= j <= Sizech - 1  && SizeNch + 1 <= i <= size - 1; j--; i++)
+     75:          {
+=>   76:          assert (0 <= i   && i   < SizeNch);
+     77:          assert (0 <= i-1 && i-1 < SizeNch);
+     78: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:01:38, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:01:42
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp, строка: 53, функция: void FillArr(int*, int, int, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= i && i < SizeNch".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1408 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042CF6D in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: FillArr() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (53):
+
+     51:      for (1 <= i; i <= SizeNch; i++)
+     52:          {
+=>   53:          assert (0 <= i   && i   < SizeNch);
+     54:          assert (0 <= i-1 && i-1 < SizeNch);
+     55: 
+
+# 1 0x0042CECA in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/Funk123654.cpp (32):
+
+     30:      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
+     31: 
+=>   32:      FillArr (data, 16, SizeNch, Sizech);
+     33: 
+     34:      PrintArray (data, 16, 3, "после заполнения");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\КПК\TX\TXLib.h
+Compiled:	Nov  5 2021 18:06:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 05 2021 18:06:54
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
