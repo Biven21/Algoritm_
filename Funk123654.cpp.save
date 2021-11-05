@@ -24,17 +24,15 @@ void FillArr (int data [], int size, int SizeNch, int shift);
          SizeNch = TotPer / 2 * 3;
          Sizech = size - SizeNch;
          shift = (3 - (ChPer * 3 - Sizech));
-
          }
-     //else ChPer = (TotPer + 1) / 2;
-
-     //SizeNch =
+     else Sizech = ChPer * 3;
+     
      printf ("\n колво нечетн членов = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
 
      FillArr (data, 16, SizeNch, shift);
 
      PrintArray (data, 16, 3, "после заполнения");
-     
+
      return 0;
      }
 
@@ -59,7 +57,9 @@ void FillArr (int data [], int size, int SizeNch, int shift)
      printf ("\n SizeNch + 1 = %d", SizeNch + 1);
      printf ("\n data [i] = %d", data [i]);
 
-     for (SizeNch + 1 <= i; i < size; i++)
+     i = size - 1;
+     
+     for (SizeNch + 1 <= i; i < size; i--)
          {
          if ((i) % 3 != 0) data [i] = data [i - 1] - 1;
          else                  data [i] = data [i - 1] - 4;
@@ -67,14 +67,15 @@ void FillArr (int data [], int size, int SizeNch, int shift)
          printf ("\n data [i] = %d  i = %d", data [i], i);
          }
      }
-void PatTo 
+
+/* void PatTo
      {
-     int j = 0;
-     
+     int i = size;
+
      for (SizeNch + 1 <= i; i < size; i++)
          {
          if  (shift == 1) data [i] = data[i - 1] - 4;
          for (1 <= j <= shift)
-             
+
          }
      }
