@@ -9,6 +9,7 @@ void DataDoun (int Sizech, int dd []);
      {
      int size = 16;
      int data [] = {};
+
      int TotPer  = 0;
      int ChPer   = 0;
      int NchPer  = 0;
@@ -42,7 +43,7 @@ void DataDoun (int Sizech, int dd []);
 void FillArr (int data [], int size, int SizeNch, int Sizech)
      {
      int i = 1;
-
+     int dd [] = {};
      data [0] = 1;
 
      for (i = 1; i < SizeNch; i++)
@@ -54,10 +55,12 @@ void FillArr (int data [], int size, int SizeNch, int Sizech)
          else            data [i] = data [i - 1] + 4;
          printf ("\n data [i] = %d  i = %d", data [i], i);
          }
-     DataDoun (int Sizech, int dd []);
 
-     int j = 0
-     for (0 <= j < Sizech  && SizeNch <= i <= size - 1; j++; i++)
+     DataDoun (Sizech, dd);
+
+     int j = 0;
+
+     for (0 <= j < Sizech && SizeNch <= i <= size - 1; j++; i++)
          {
          assert (SizeNch <= i && i < size);
 
@@ -84,3 +87,4 @@ void DataDoun (int Sizech, int dd [])
          printf ("\n\n dd [j] = %d  j = %d", dd [j], j);
          }
      }
+//D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp|58|error: expected primary-expression before 'int'|
