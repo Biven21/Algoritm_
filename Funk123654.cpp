@@ -3,6 +3,7 @@
 #include "Algofunc.h"
 
 void FillArr (int data [], int size, int SizeNch, int Sizech);
+void DataDoun (int Sizech, int dd []);
 
  int main ()
      {
@@ -40,8 +41,6 @@ void FillArr (int data [], int size, int SizeNch, int Sizech);
 
 void FillArr (int data [], int size, int SizeNch, int Sizech)
      {
-     int j, dd [Sizech];
-
      int i = 1;
 
      data [0] = 1;
@@ -55,28 +54,33 @@ void FillArr (int data [], int size, int SizeNch, int Sizech)
          else            data [i] = data [i - 1] + 4;
          printf ("\n data [i] = %d  i = %d", data [i], i);
          }
+     DataDoun (int Sizech, int dd []);
 
-
-
-     for (int j = 1; j < Sizech; j++)
-         {
-         assert (0 <= j   && j   < Sizech);
-         assert (0 <= j-1 && j-1 < Sizech);
-         dd [0] = 4;
-         if (j % 3 != 0) {dd [0] = 4; dd [j] = dd [j - 1] + 1;}
-         else            dd [j] = dd [j - 1] + 4;
-         printf ("\n\n dd [j] = %d  j = %d", data [j], j);
-         }
-
-
-     for (1 <= j < Sizech  && SizeNch <= i <= size - 1; j++; i++)
+     int j = 0
+     for (0 <= j < Sizech  && SizeNch <= i <= size - 1; j++; i++)
          {
          assert (SizeNch <= i && i < size);
 
-         assert (1       <= j && j < Sizech);
+         assert (0       <= j && j < Sizech);
 
          data [i] = dd [j];
          }
+     }
 
+//-----------------------------------------------------------------------------
 
+void DataDoun (int Sizech, int dd [])
+     {
+     int dd [0] = 4;
+     int j = 1;
+     for (j = 1; j < Sizech; j++)
+         {
+         assert (0 <= j   && j   < Sizech);
+         assert (0 <= j-1 && j-1 < Sizech);
+
+         if (j % 3 != 0) dd [j] = dd [j - 1] + 1;
+         else            dd [j] = dd [j - 1] + 4;
+
+         printf ("\n\n dd [j] = %d  j = %d", dd [j], j);
+         }
      }

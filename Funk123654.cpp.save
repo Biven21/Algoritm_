@@ -2,7 +2,8 @@
 #include "TXLib.h"
 #include "Algofunc.h"
 
-void FillArr (int data [], int size, int SizeNch, int Sizech);
+void FillArr (int data [], int size, int SizeNch, int Sizech, int dd []);
+void DataDoun (int Sizech, int dd []);
 
  int main ()
      {
@@ -29,7 +30,7 @@ void FillArr (int data [], int size, int SizeNch, int Sizech);
 
      printf ("\n колво нечетн членов SizeNch = %d \n колво четных членов = %d \n сдвиг = %d", SizeNch, Sizech, shift);
 
-     FillArr (data, 16, SizeNch, Sizech);
+     FillArr (data, 16, SizeNch, Sizech, dd);
 
      PrintArray (data, 16, 3, "после заполнения");
 
@@ -38,15 +39,13 @@ void FillArr (int data [], int size, int SizeNch, int Sizech);
 
 //-----------------------------------------------------------------------------
 
-void FillArr (int data [], int size, int SizeNch, int Sizech)
+void FillArr (int data [], int size, int SizeNch, int Sizech, int dd [])
      {
-     int j, dd [Sizech];
-
      int i = 1;
 
      data [0] = 1;
 
-     for (i = ; i < SizeNch; i++)
+     for (i = 1; i < SizeNch; i++)
          {
          assert (0 <= i   && i   < SizeNch);
          assert (0 <= i-1 && i-1 < SizeNch);
@@ -55,29 +54,33 @@ void FillArr (int data [], int size, int SizeNch, int Sizech)
          else            data [i] = data [i - 1] + 4;
          printf ("\n data [i] = %d  i = %d", data [i], i);
          }
+     DataDoun (int Sizech, int dd []);
 
-     dd [0] = 4;
+     int j = 0
+     for (0 <= j < Sizech  && SizeNch <= i <= size - 1; j++; i++)
+         {
+         assert (SizeNch <= i && i < size);
 
-     for (1 = j; j < Sizech; j++)
+         assert (0       <= j && j < Sizech);
+
+         data [i] = dd [j];
+         }
+     }
+
+//-----------------------------------------------------------------------------
+
+void DataDoun (int Sizech, int dd [])
+     {
+     int dd [0] = 4;
+     int j = 1;
+     for (j = 1; j < Sizech; j++)
          {
          assert (0 <= j   && j   < Sizech);
          assert (0 <= j-1 && j-1 < Sizech);
 
          if (j % 3 != 0) dd [j] = dd [j - 1] + 1;
          else            dd [j] = dd [j - 1] + 4;
+
          printf ("\n\n dd [j] = %d  j = %d", data [j], j);
          }
 
-     for (1 = j < Sizech  && SizeNch = i <= size - 1; j--; i++)
-         {
-         assert (SizeNch - 1 <= i   && i   < size);
-         assert (SizeNch - 1 <= i-1 && i-1 < Size);
-
-         assert (0 <= j   && j   < Sizech);
-         assert (0 <= j-1 && j-1 < Sizech);
-
-         data [i] = dd [j];
-         }
-
-
-     }
