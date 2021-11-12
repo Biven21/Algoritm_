@@ -9,10 +9,9 @@ void DataDoun (int Sizech, int dd []);
      {
      int size = 16;
      int data [] = {};
-
+     int NchPer = 0;
      int TotPer  = 0;
      int ChPer   = 0;
-     int NchPer  = 0;
      int SizeNch = 0;
      int Sizech  = 0;
      int shift   = 0;
@@ -25,7 +24,6 @@ void DataDoun (int Sizech, int dd []);
          {
          SizeNch = TotPer / 2 * 3;
          Sizech = size - SizeNch;
- //        shift = (3 - (ChPer * 3 - Sizech));
          }
      else Sizech = ChPer * 3;
 
@@ -56,21 +54,24 @@ void FillArr (int data [], int size, int SizeNch, int Sizech)
 
      DataDoun (Sizech, dd);
 
+     PrintArray (dd, Sizech, 6, "после заполнения");
+
      int j = 0;
      int i = SizeNch;
-     for (j = 0; j < Sizech; j++)
+     for (i = SizeNch;  i < size; i++)
          {
-         //assert (SizeNch <= i && i < size);
-         assert (0 <= j && j < Sizech);
+         printf ("\n dd[j] = %d", dd [j]);
 
-         printf ("\n data [i] = %d  i = %d  dd [j] = %d  j = %d  ", data [i], i, dd [j], j);
+         assert (SizeNch <= i  && i < size);
+
 
          data [i] = dd [j];
 
+         printf ("\n data[i] = %d", data [i]);
+         printf ("\n");
 
-         i++;
+         j++;
          }
-     PrintArray (dd, Sizech, 3, "после заполнения");
      }
 
 //-----------------------------------------------------------------------------
@@ -81,7 +82,6 @@ void DataDoun (int Sizech, int dd [])
 
      for (int j = 1; j < Sizech; j++)
          {
-         assert (0 <= j   && j   < Sizech);
          assert (0 <= j-1 && j-1 < Sizech);
 
          if (j % 3 != 0) dd [j] = dd [j - 1] + 1;
@@ -89,6 +89,5 @@ void DataDoun (int Sizech, int dd [])
 
          printf ("\n\n dd [j] = %d  j = %d", dd [j], j);
          }
-     PrintArray (dd, Sizech, 6, "после заполнения");
      }
 //D:\school\КПК\Репозиторий\Algoritm_\Funk123654.cpp|58|error: expected primary-expression before 'int'|

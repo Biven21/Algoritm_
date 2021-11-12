@@ -1774,3 +1774,912 @@ Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
 Directory:	D:\school\КПК\Репозиторий\Algoritm_
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x2B64 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:11:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:11:59
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x2B64 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:11:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:11:59
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x11F8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:12:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:12:21
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x11F8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:12:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:12:21
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1BA8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:22:01, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:22:05
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1BA8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:22:01, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:22:05
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x116C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:23:37, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:23:41
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x116C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:23:37, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:23:41
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x19EC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:27:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:27:39
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x19EC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:27:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:27:39
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xA20 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:29:34, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:29:37
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xA20 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:29:34, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:29:38
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x2738 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:51:26, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:51:32
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x2738 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:51:26, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:51:32
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x283C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:55:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:55:14
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x283C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 17:55:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 17:55:14
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x3F4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00412B59 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnExceptionSEH() at D:/school/TX/TXLib.h (11510)
+# 1 0x00412325 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txVectoredExceptionHandler() at D:/school/TX/TXLib.h (11402)
+# 2 0x773362FE in C:\Windows\SysWOW64\ntdll.dll: RtlGetProcessHeaps()
+# 3 0x7731B692 in C:\Windows\SysWOW64\ntdll.dll: RtlCaptureContext()
+# 4 0x7731B354 in C:\Windows\SysWOW64\ntdll.dll: LdrRemoveLoadAsDataTable()
+# 5 0x772D0133 in C:\Windows\SysWOW64\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x75ACC620 in C:\Windows\syswow64\msvcrt.dll: printf()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 18:00:33, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 18:00:37
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000001. Попытка прочесть данные по адресу 0x00000001. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x3F4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004119D5 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _txOnSignal() at D:/school/TX/TXLib.h (11032)
+# 1 0x004010F9 in D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe: _gnu_exception_handler@4()
+# 2 0x773374FF in C:\Windows\SysWOW64\ntdll.dll: RtlKnownExceptionFilter()
+# 3 0x772F9F45 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in void PrintArray(const int*, int, int, const char*) at D:\school\КПК\Репозиторий\Algoritm_\Algofunc.h (24):
+
+     22:              }
+     23:          $g; printf ("[%2d] = ", i);
+=>   24:          $c; printf ("%3d,", data [i]);
+     25:          }
+     26:          printf (" END");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 12 2021 18:00:33, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 12 2021 18:00:37
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\Funk123654.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------
