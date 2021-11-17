@@ -8,8 +8,8 @@ void Data_dd (int data [], int SizeNch, int dd [], int Sizech, int size);
 
  int main ()
      {
-     int size = 16;
-     int data [16] = {[0] = 1};
+     int size = 8;
+     int data [8] = {[0] = 1};
      int NchPer  = 0;
      int TotPer  = 0;
      int ChPer   = 0;
@@ -42,9 +42,8 @@ void Data_dd (int data [], int SizeNch, int dd [], int Sizech, int size);
 
      Data_dd (data, SizeNch, dd, Sizech, size);
 
-     PrintArray (data, 16, 3, "после заполнения Data+dd");
-     PrintArray (dd, Sizech, 6, "после заполнения dd");
- //    PrintArray (Data_dd, 16, 3, "после заполнения Data+dd");
+     $y PrintArray (data, 8, 3, "после заполнения Data+dd");
+//     PrintArray (dd, Sizech, 6, "после заполнения dd");
 
      return 0;
      }
@@ -60,7 +59,7 @@ void FillArr (int data [], int SizeNch)
 
          if (i % 3 != 0) data [i] = data [i - 1] + 1;
          else            data [i] = data [i - 1] + 4;
-         PrintArray (data, 16, 3, "после заполнения data one");
+         //PrintArray (data, 16, 3, "после заполнения data one");
          }
      }
 
@@ -90,14 +89,9 @@ void Data_dd (int data [], int SizeNch, int dd [], int Sizech, int size)
      int j = Sizech - 1;
      for (i = SizeNch;  i < size; i++)
          {
-         $y printf ("\n dd[j] = %d     j = %d", dd [j], j);
-
          assert (SizeNch <= i && i < size);
 
          data [i] = dd [j];
-
-         printf ("\n data[i] = %d Data + dd", data [i]);
-         printf ("\n");
 
          j--;
        }
