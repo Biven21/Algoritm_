@@ -2,6 +2,7 @@
 #include "AlgoFunc.h"
 
 void Cikl_sdvig_Left (int data [], int size);
+void sdvigRite (int data [], int size);
 
 int main ()
     {
@@ -11,24 +12,38 @@ int main ()
 
     for (int i = 0; i < size; i++) data [i] = random (size * 2);
 
-    $y PrintArray (data, size, 2, "после заполнения data random");
+    $y PrintArray (data, size, size, "после заполнения data random");
 
-    void Cikl_sdvig_Left (data, size);
-    
+    Cikl_sdvig_Left (data, size);
+    sdvigRite       (data, size);
+
     return 0;
     }
 
 //-----------------------------------------------------------------------------
 void Cikl_sdvig_Left (int data [], int size)
      {
-     int ciklleft = data [0];
-     int sdvigL = 0;
+     int Nol =  data [0];
      
      for (int i = 0; i < size - 1; i++)
          {
          data [i] = data [i + 1];
          }
-     data [size - 1] =  ciklleft;
+     data [size - 1] = Nol;
+         
+     PrintArray (data, size, size, "после здвигa влево на 1 позицию");
+     }
+
+//-----------------------------------------------------------------------------
+void sdvigRite (int data [], int size)
+     {
+     int Nol = data [size - 1];
      
-     PrintArray (data, size, 2, "после заполнения data random");
+     for (int i = size - 1; i >= 0; i--) 
+         {
+         assert (size - 1 => i && i >= 0);
+          
+         data [i] = data [i - 1];
+     
+     
      }
