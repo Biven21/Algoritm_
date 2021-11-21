@@ -20,7 +20,8 @@ int main ()
 //-----------------------------------------------------------------------------
 void Data_OverAB (int data [], int size)
      {
-     int partA = 3;
+     int partA = 2;
+     int partB = size - 1 - partA;
      int Nol = 0;
 
      if (partA + 1 == size / 2)
@@ -28,9 +29,29 @@ void Data_OverAB (int data [], int size)
          for (int i = 0; i <= partA; i++)
              {
              Nol = data [i];
-             data [i] = data [size - 1 - i];
-             data [size - 1 - i] = Nol;
+             data [i] = data [partA + i];
+             data [partA + i] = Nol;
              }
+         $y PrintArray (data, size, size, "после заполнения data обмен равными частями");
          }
-     $y PrintArray (data, size, size, "после заполнения data обмен равными частями");
+
+
+     if (partA + 1 < size / 2)
+         {
+         for (int i = 0; i <= partA; i++)
+             {
+             Nol = data [i];
+             data [i] = data [(size - 1) - partA + i];
+             data [(size - 1) - partA + i] = Nol;
+             }
+         for (int j = 0; j <= partA; j++)
+             {
+             Nol = data [0];
+             for (int i = 0; i <= partA; i++) data [i] = data [i+1];
+             data [partA] = Nol;
+             }
+         $y PrintArray (data, size, size, "после заполнения data обмен частями A < B");
+         printf ("\n A = %d  <  B = %d", partA, partB);
+         }
+
      }
