@@ -43,10 +43,9 @@ void sdvigRite (int data [], int size)
          {
          assert (size - 1 >= i   && i   >  0);
          assert (size - 1 >= i-1 && i-1 >= 0);
-         $r printf ("\n i = %d  i-1= %d", i, i-1);
-         $y printf ("\n data i = %d", data [i]);
+
          data [i] = data [i - 1];
-         $y printf ("\n data i = %d", data [i]);
+
          }
      data [0] = Nol;
 
