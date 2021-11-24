@@ -20,13 +20,13 @@ int main ()
 //-----------------------------------------------------------------------------
 void Data_OverAB (int data [], int size)
      {
-     int namberA = 2;
+     int namberA = 4;
      int partA = namberA + 1;
      int partB = size - partA;
      int Nol = 0;
 
-     $y printf ("\n Номер разделяющего члена массива А = %d \n размер левой части массива partА   = %d", namberA, partA);
-     $y printf ("\n размер правой части массива partB  = %d", partB);
+     $y printf ("\n Номер разделяющего члена массива А = %d \n размер левой части массива   partА = %d", namberA, partA);
+     $y printf ("\n размер правой части массива  partB = %d", partB);
 
      if (partA == partB)
          {
@@ -38,7 +38,7 @@ void Data_OverAB (int data [], int size)
              data [i] = data [partA + i];
              data [partA + i] = Nol;
              }
-         $y PrintArray (data, size, size, "после заполнения data обмен равными частями");
+         $y PrintArray (data, size, size, "после заполнения data, обмен равными частями");
          }
 
      if (partA < partB)
@@ -68,16 +68,18 @@ void Data_OverAB (int data [], int size)
              data [partB - 1] = Nol;
              }
 
-         $y PrintArray (data, size, size, "после заполнения data обмен частями A < B");
+         $y PrintArray (data, size, size, "после заполнения data, обмен частями A < B");
          printf ("\n A = %d  <  B = %d", partA + 1, partB);
          }
      if (partA > partB)
          {
-         for (int i = 0; i <= partB - 1; i++)
+         for (int i = 0; i <= partB; i++)
              {
+             assert (0 <= i && i <= partB);
+
              Nol = data [i];
-             data [i] = data [(size - 1) - partB + i];
-             data [(size - 1) - partB + i] = Nol;
+             data [i] = data [partA + i];
+             data [partA + i] = Nol;
              }
          for (int j = 0; j <= (partA - partB); j++)
              {
@@ -91,7 +93,7 @@ void Data_OverAB (int data [], int size)
              data [size - 1] = data [partB + 1];
              }
          printf ("\n A = %d   B = %d", partA + 1, partB);
-         PrintArray (data, size, size, "после заполнения data обмен частями A > B");
+         PrintArray (data, size, size, "после заполнения data, обмен частями A > B");
          }
 
      }
