@@ -43,3 +43,48 @@ Run file:	D:\school\КПК\Репозиторий\Algoritm_\less2_2_task6_1.exe
 Directory:	D:\school\КПК\Репозиторий\Algoritm_
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\school\КПК\Репозиторий\Algoritm_\less2_2_task6_1.exe, файл: D:\school\КПК\Репозиторий\Algoritm_\less2_2_task6_1.cpp, строка: 91, функция: void Data_OverAB(int*, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "partB <= i && i < size - 1".
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1B44 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042D61A in D:\school\КПК\Репозиторий\Algoritm_\less2_2_task6_1.exe: Data_OverAB() at D:/school/КПК/Репозиторий/Algoritm_/less2_2_task6_1.cpp (91):
+
+     89:              for (int i = partB; i < size; i++)
+     90:                  {
+=>   91:                  assert (partB <= i && i < size - 1);
+     92: 
+     93:                  data [i] = data [i + 1];
+
+# 1 0x0042CEE7 in D:\school\КПК\Репозиторий\Algoritm_\less2_2_task6_1.exe: main() at D:/school/КПК/Репозиторий/Algoritm_/less2_2_task6_1.cpp (15):
+
+     13:     $y PrintArray (data, size, size, "после заполнения data random");
+     14: 
+=>   15:     Data_OverAB (data, size);
+     16: 
+     17:     return 0;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-10-03 23:49:44 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\school\TX\TXLib.h
+Compiled:	Nov 27 2021 13:54:01, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 27 2021 13:54:05
+
+Run file:	D:\school\КПК\Репозиторий\Algoritm_\less2_2_task6_1.exe
+Directory:	D:\school\КПК\Репозиторий\Algoritm_
+
+--------------------------------------------------

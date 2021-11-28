@@ -51,7 +51,7 @@ void Data_OverAB (int data [], int size)
              data [i] = data [size - partA + i];
              data [size - partA + i] = Nol;
              }
-        $g PrintArray (data, size, size, "после заполнения data");
+         $g PrintArray (data, size, size, "после заполнения data");
          for (int j = 0; j < partA; j++)
              {
              assert (0 <= j && j < partA);
@@ -73,24 +73,28 @@ void Data_OverAB (int data [], int size)
          }
      if (partA > partB)
          {
-         for (int i = 0; i <= partB; i++)
+         for (int i = 0; i < partB; i++)
              {
-             assert (0 <= i && i <= partB);
+             assert (0 <= i && i < partB);
 
              Nol = data [i];
              data [i] = data [partA + i];
              data [partA + i] = Nol;
              }
-         for (int j = 0; j <= (partA - partB); j++)
+         PrintArray (data, size, size, "осле обмена частями А и В data, обмен частями A > B");
+         for (int j = 1; j <= (partA - partB); j++)
              {
-             assert (0 <= j && j <= (partA - partB));
+             assert (1 <= j && j <= (partA - partB));
 
-             Nol = data [partB + 1];
-             for (int i = partB + 1; i < size; i++)
+             Nol = data [partB]; $r printf ("\n partB = %d   Nol = %d", partB, Nol);
+             for (int i = partB; i < size - 1; i++)
                  {
+                 assert (partB <= i && i < size - 1);
+
                  data [i] = data [i + 1];
+                 //PrintArray (data, size, size, "в процессе заполнения data, обмен частями A > B");
                  }
-             data [size - 1] = data [partB + 1];
+             data [size - 1] = data [partB];
              }
          printf ("\n A = %d   B = %d", partA + 1, partB);
          PrintArray (data, size, size, "после заполнения data, обмен частями A > B");
