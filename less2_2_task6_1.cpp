@@ -86,15 +86,16 @@ void Data_OverAB (int data [], int size)
              {
              assert (1 <= j && j <= (partA - partB));
 
-             Nol = data [partB]; $r printf ("\n partB = %d   Nol = %d", partB, Nol);
+             Nol = data [partB]; $r printf ("\n partB = %d   Nol = %d  size = %d", partB, Nol, size);
              for (int i = partB; i < size - 1; i++)
                  {
                  assert (partB <= i && i < size - 1);
 
                  data [i] = data [i + 1];
-                 //PrintArray (data, size, size, "в процессе заполнения data, обмен частями A > B");
+                 PrintArray (data, size, size, "в процессе заполнения data, обмен частями A > B внутри");
                  }
-             data [size - 1] = data [partB];
+             data [size - 1] = Nol;
+             $r PrintArray (data, size, size, "в процессе заполнения data, обмен частями A > B с послежним членом");
              }
          printf ("\n A = %d   B = %d", partA + 1, partB);
          PrintArray (data, size, size, "после заполнения data, обмен частями A > B");
